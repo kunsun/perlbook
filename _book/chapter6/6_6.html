@@ -914,9 +914,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="../chapter4/4.1 统计文件词频/4_1.md">
+        <li class="chapter " data-level="1.5.1" data-path="../chapter4/4.1 统计文件词频/4_1.html">
             
-                <span>
+                <a href="../chapter4/4.1 统计文件词频/4_1.html">
             
                     
                     4_1 统计文件词频
@@ -927,9 +927,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.2" data-path="../chapter4/4.2 合并两个词表/4_2.md">
+        <li class="chapter " data-level="1.5.2" data-path="../chapter4/4.2 合并两个词表/4_2.html">
             
-                <span>
+                <a href="../chapter4/4.2 合并两个词表/4_2.html">
             
                     
                     4_2 合并两个词表
@@ -940,9 +940,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.3" data-path="../chapter4/4.3 求两个词表词的交集/4_3.md">
+        <li class="chapter " data-level="1.5.3" data-path="../chapter4/4.3 求两个词表词的交集/4_3.html">
             
-                <span>
+                <a href="../chapter4/4.3 求两个词表词的交集/4_3.html">
             
                     
                     4_3 求两个词表的交集
@@ -953,9 +953,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.4" data-path="../chapter4/4.4 差词表/4_4.md">
+        <li class="chapter " data-level="1.5.4" data-path="../chapter4/4.4 查词表/4_4.html">
             
-                <span>
+                <a href="../chapter4/4.4 查词表/4_4.html">
             
                     
                     4_4 查词表
@@ -966,9 +966,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.5" data-path="../chapter4/4.5 汉语分词/4_5.md">
+        <li class="chapter " data-level="1.5.5" data-path="../chapter4/4.5 汉语分词/4_5.html">
             
-                <span>
+                <a href="../chapter4/4.5 汉语分词/4_5.html">
             
                     
                     4_5 汉语分词
@@ -2261,14 +2261,19 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p>@array1=(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;);</p>
-<h1 id="&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#x98E8;array&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#x4BB;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xE3;&#xFFFD;refarray&#xFFFD;&#xFFFD;">&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#x98E8;@array&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#x4BB;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xE3;&#xFFFD;$refArray&#xFFFD;&#xFFFD;</h1>
-<p>$refArray=\@array1;</p>
-<h1 id="&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;refarray&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#x138;&#xFFFD;&#x5B5;">&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;$refArray&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#x138;&#xFFFD;&#x5B5;</h1>
-<p>@array2=@{$refArray};</p>
-<h1 id="&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;refarray&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;array1&#xFFFD;&#x435;&#x133;&#xFFFD;&#x561;">&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;$refArray&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;@array1&#xFFFD;&#x435;&#x133;&#xFFFD;&#x531;</h1>
-<p>print ${$refArray}[0].&quot;\t&quot;.$array2[0].&quot;\n&quot;;
-print ${$refArray}[1].&quot;\n&quot;;</p>
+                                <pre><code class="lang-perl">
+@array1=(<span class="hljs-string">&quot;a&quot;</span>,<span class="hljs-string">&quot;b&quot;</span>,<span class="hljs-string">&quot;c&quot;</span>);
+
+<span class="hljs-comment">#&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#x98E8;@array&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#x4BB;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xE3;&#xFFFD;$refArray&#xFFFD;&#xFFFD;</span>
+$refArray=\@array1;
+
+<span class="hljs-comment">#&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;$refArray&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#x138;&#xFFFD;&#x5B5;</span>
+@array2=@{$refArray};
+
+<span class="hljs-comment">#&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;$refArray&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;@array1&#xFFFD;&#x435;&#x133;&#xFFFD;&#x531;</span>
+<span class="hljs-keyword">print</span> ${$refArray}[<span class="hljs-number">0</span>].<span class="hljs-string">&quot;\t&quot;</span>.$array2[<span class="hljs-number">0</span>].<span class="hljs-string">&quot;\n&quot;</span>;
+<span class="hljs-keyword">print</span> ${$refArray}[<span class="hljs-number">1</span>].<span class="hljs-string">&quot;\n&quot;</span>;
+</code></pre>
 
                                 
                                 </section>
@@ -2312,7 +2317,7 @@ print ${$refArray}[1].&quot;\n&quot;;</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"6_6 通过引用访问数组成员","level":"1.7.6","depth":2,"next":{"title":"6_7 通过引用遍历数组","level":"1.7.7","depth":2,"path":"chapter6/6_7.md","ref":"chapter6/6_7.md","articles":[]},"previous":{"title":"6_5 通过引用访问简单变量","level":"1.7.5","depth":2,"path":"chapter6/6_5.md","ref":"chapter6/6_5.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter6/6_6.md","mtime":"2013-03-21T08:16:52.000Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-07-02T05:30:29.076Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"6_6 通过引用访问数组成员","level":"1.7.6","depth":2,"next":{"title":"6_7 通过引用遍历数组","level":"1.7.7","depth":2,"path":"chapter6/6_7.md","ref":"chapter6/6_7.md","articles":[]},"previous":{"title":"6_5 通过引用访问简单变量","level":"1.7.5","depth":2,"path":"chapter6/6_5.md","ref":"chapter6/6_5.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter6/6_6.md","mtime":"2016-07-02T11:59:43.000Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-07-02T12:00:47.278Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
